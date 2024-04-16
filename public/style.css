@@ -1,0 +1,452 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1250px;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.sam-sulek-img {
+  width: 100%;
+}
+
+.promo-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(142, 104, 43, 1) 0%, rgba(199, 162, 77, 1) 47%, rgba(142, 104, 43, 1) 100%);
+  height: 50px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.promo-text {
+  font-size: 20px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+.promo1,
+.promo2,
+.promo3,
+.promo4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  background-color: #0000;
+  will-change: transform;
+  transform: translateX(0);
+  white-space: nowrap;
+  animation: marquee 24s linear infinite;
+}
+
+.mo-footer {
+  width: 100%;
+}
+
+.main-image {
+  width: 100%;
+
+  background-image: url("media/sam-sulek.png");
+}
+
+.image-overlay {
+  position: absolute;
+  margin-top: 35px;
+  width: 100%;
+  height: 855px;
+}
+
+.groeicafe-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color: #0000;
+}
+
+.groeicafe-text {
+  background: -webkit-linear-gradient(0deg, rgb(202, 190, 171) 20%, #ffdf7e 47%, rgb(210, 201, 187) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 125px;
+}
+
+.containers-container {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  height: 500px;
+  background-color: #0000;
+}
+
+.container-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 500px;
+  background-color: #0000;
+}
+
+.nieuw-bij-text {
+  margin-left: 30px;
+  color: white;
+}
+
+.studentenpakketten-text {
+  margin-left: 30px;
+  color: #EEC569;
+  /* background: -webkit-linear-gradient(0deg, rgb(202, 190, 171) 0%, rgb(255, 202, 56) 47%, rgb(210, 201, 187) 100% );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  font-size: 60px;
+}
+
+.zorgvuldig-text {
+  margin-left: 30px;
+  color: white;
+  font-size: 20px;
+}
+
+.shop-nu-button {
+  margin-top: 25px;
+  padding: 20px;
+  width: 270px;
+  box-shadow: 10px 10px #9D7734;
+  transition-duration: .5s;
+  font-weight: 700;
+  margin-left: 30px;
+  color: black;
+  font-size: 20px;
+  background-color: #E9CD90;
+}
+
+.shop-nu-button:hover {
+  margin-top: 25px;
+  padding: 20px;
+  width: 270px;
+  box-shadow: 0px 0px #9D7734;
+  transition-duration: .5s;
+  font-weight: 700;
+  margin-left: 30px;
+  color: black;
+  font-size: 20px;
+  background-color: #eeddb8;
+}
+
+.container-rechts {
+  opacity: 100%;
+  width: 50%;
+  height: 500px;
+  background-color: red;
+}
+
+/* footer */
+.footer-gold-bar {
+  background: linear-gradient(90deg, rgba(142, 104, 43, 1) 0%, rgba(199, 162, 77, 1) 47%, rgba(142, 104, 43, 1) 100%);
+  height: 35px;
+  width: 100%;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  padding: 14px 20px;
+  margin: 8px 0;
+  width: 100%;
+
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.button-container {
+  height: 100%;
+  width: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E9CD90;
+}
+
+.button-container {
+  height: 100%;
+  width: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  transition-duration: .6s;
+}
+
+.button-container:hover {
+  height: 100%;
+  width: 150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeddb8;
+  transition-duration: .6s;
+  cursor: pointer;
+}
+
+.login-button {
+  width: 100%;
+  height: 100%;
+  padding-left: 25%;
+  padding-top: 22%;
+
+  text-decoration: none;
+  color: black;
+  background-color: #E9CD90;
+  transition-duration: .6s;
+  font-weight: 500;
+}
+
+.login-button:hover {
+  width: 100%;
+  height: 100%;
+  padding-left: 25%;
+  padding-top: 22%;
+  margin-top: -2px;
+  margin-left: -1px;
+
+  text-decoration: none;
+  color: black;
+  background-color: #eeddb8;
+  transition-duration: .6s;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 1920px;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fefefe;
+  margin: auto auto;
+  /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 350px;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {
+    -webkit-transform: scale(0)
+  }
+
+  to {
+    -webkit-transform: scale(1)
+  }
+}
+
+@keyframes animatezoom {
+  from {
+    transform: scale(0)
+  }
+
+  to {
+    transform: scale(1)
+  }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/* FOOTER */
+.footer {
+  height: 485px;
+  width: 100%;
+
+  background-color: #000;
+}
+
+.footer-main-text {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+
+  background: -webkit-linear-gradient(0deg, rgb(216, 189, 147) 20%, #d6b657 47%, rgb(214, 185, 138) 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 55px;
+}
+
+.footer-main-container{
+  width: 100%;
+  height: 230px;
+
+  display: flex;
+  flex-direction: row;
+  background-color: #0000;
+}
+
+.footer-1-containers{
+  width: 25%;
+  height: 100%;
+  background-color: red;
+}
+.footer-2-containers{
+  width: 25%;
+  height: 100%;
+  background-color: #0000;
+}
+.footer-3-containers{
+  width: 25%;
+  height: 100%;
+  background-color: #0000;
+}
+.footer-4-containers{
+  width: 25%;
+  height: 100%;
+  background-color: #0000;
+}
+
+.footer-containers-main-text{
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+
+  color: #efb539;
+  font-size: 18px;
+}
+
+.footer-containers-second-text{
+  margin-left: 25px;
+  margin-top: 10px;
+
+  color: white;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.footer-onder-container{
+  height: 25px;
+  width: 100%;
+
+  background-color: brown;
+}
