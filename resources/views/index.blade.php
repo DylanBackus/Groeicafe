@@ -27,6 +27,9 @@
         <div class="button-container" href="/login">
             <a class="login-button" href="/login">Login</a>
         </div>
+        <div class="button-container" href="/register">
+            <a class="login-button" href="/register">Register</a>
+        </div>
     </div>
         <img src="media/samsulek.png" class="main-image">
         <div class="image-overlay">
@@ -51,6 +54,7 @@
         <div class="footer-main-container">
             <div class="footer-1-containers">
                 <h1 class="footer-containers-main-text">VOLG ONS<h1>
+                <h1 class="footer-containers-second-text">IG/Snp/YT</h1>
             </div>
             <div class="footer-2-containers">
                 <h1 class="footer-containers-main-text">LINKS<h1>
@@ -70,10 +74,12 @@
             <div class="footer-4-containers">
                <h1 class="footer-containers-main-text">NIEUWSBRIEF<h1>
                <h1 class="footer-containers-second-text">Promoties, nieuwe producten en uitverkoop. Rechtstreeks in uw inbox.<h1>
+                <input class="mail-input" placeholder="E-mail">
+                </input>
             </div>
         </div>
         <div class="footer-onder-container">
-
+            <img class="payment-methods-image" src="media/payment-methods.png">
         </div>
     </div>
 </body>
